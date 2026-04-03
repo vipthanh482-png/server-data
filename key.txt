@@ -1,7 +1,0 @@
-function generateKey() {
-  const base = "XWAVE-9";
-  const timeBlock = Math.floor(Date.now() / (1000 * 60 * 60 * 2)); 
-  // ⬆️ mỗi 2 giờ đổi 1 lần
-
-  return `${base}-${timeBlock}`;
-}
